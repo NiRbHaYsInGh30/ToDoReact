@@ -29,6 +29,8 @@ export const TodoWrapper = () => {
     );
   };
 
+  
+  // editing the task
   const editTodo = (id) => {
     setTodos(
       todos.map((todo) =>
@@ -45,7 +47,7 @@ export const TodoWrapper = () => {
     );
   };
 
-  console.log(todos);
+  console.log(todos);//checking the code works 
 
   return (
     <div className="TodoWrapper">
